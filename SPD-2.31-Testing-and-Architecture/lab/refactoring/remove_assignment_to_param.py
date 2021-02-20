@@ -1,4 +1,3 @@
-
 # By Kami Bigdely
 # Remove assignment to method parameter.
 class Distance:
