@@ -17,10 +17,8 @@ def get_value(li):  # TODO: Rename this function to reflect what it's doing.
     return m
 
 
-
 li = [5, -1, 43, 32, 87, -100]
 print(get_value(li))
-
 
 ############################
 def process(sentence):  # TODO: Rename this function to reflect what it's doing.
