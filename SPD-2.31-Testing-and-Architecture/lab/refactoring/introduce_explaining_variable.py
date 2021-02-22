@@ -18,4 +18,3 @@ if eye_size > 0.45 and (math.pi*iris_width/2*iris_height/2) / eye_size >= 0.69 a
         eye_height/eye_width >= 0.59:
     print("I’m sorry I wasn’t part of your past, can I make it up by being in your future?")
     
-    

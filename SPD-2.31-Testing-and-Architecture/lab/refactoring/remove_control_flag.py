@@ -4,14 +4,14 @@
 
 def find_food(food, fridge):
     found = False
-    
+
     for item in fridge:
         if food in item:
             found = True
         # if found:
             return item
-    else:
-        return None
+    
+    return None
 
 
 
