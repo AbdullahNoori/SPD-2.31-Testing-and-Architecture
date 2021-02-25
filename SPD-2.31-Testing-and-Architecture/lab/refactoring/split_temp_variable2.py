@@ -2,7 +2,7 @@
 # Split temp variable
 
 def save_into_db(info):
-    print("saved into databse")
+    print("saved into database")
 
 
 username = input('Please enter your username: ')

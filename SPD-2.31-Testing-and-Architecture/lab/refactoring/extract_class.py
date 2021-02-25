@@ -1,3 +1,5 @@
+# DONE: reviewed
+
 # by Kami Bigdely
 # Extract Class
 foods = {'butternut squash soup':[45, True, 'soup','North African',\
@@ -27,6 +29,3 @@ for key, value in foods.items():
     print()
     print("recipe", value[5])
     print("***")
-
-
-

@@ -1,3 +1,4 @@
+# reviewed
 # by Kami Bigdely
 # Extract class
 first_names = ['elizabeth', 'Jim']
@@ -13,8 +14,11 @@ def send_hiring_email(email):
 for i, value in enumerate(emails):
     if birth_year[i] > 1985:
         print(first_names[i], last_names[i])
-        print('Movies Played: ', end='')
-        for m in movies[i]:
-            print(m, end=', ')
-        print()
+        other(i)
         send_hiring_email(value)
+
+def other(i):
+    print('Movies Played: ', end='')
+    for m in movies[i]:
+        print(m, end=', ')
+    print()
