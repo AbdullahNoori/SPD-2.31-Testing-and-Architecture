@@ -3,13 +3,13 @@
 # Reference: https://www.healthline.com/health/high-cholesterol/levels-by-age
 
 # Blood test analysis program
-total_cholostrol = 70
+total_cholesterol = 70
 ldl = 30
 triglyceride = 120
 
-good_level = total_cholostrol < 200 and ldl < 100 and triglyceride < 150
-mid_level = 200 < total_cholesteral > 240 or ldl > 160 or triglyceride .= 200
-bad_level = 200 < total_cholostrol < 240 or 130 < ldl < 160 or 150 <= triglyceride < 200
+good_level = total_cholesterol < 200 and ldl < 100 and triglyceride < 150
+mid_level = 200 < total_cholesterol > 240 or ldl > 160 or triglyceride <= 200
+bad_level = 200 < total_cholesterol < 240 or 130 < ldl < 160 or 150 <= triglyceride < 200
 
 if good_level:
     # good level
